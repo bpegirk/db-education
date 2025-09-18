@@ -17,7 +17,7 @@
 
 Скачайте репозиторий через команду :
 
-> git clone https://gitlab.irkat.ru/Bpeg/db-education.git
+> git clone [https://gitlab.irkat.ru/Bpeg/db-education.git](https://github.com/bpegirk/db-education.git)
 
 ## Импорт в MySQL вручную
 
