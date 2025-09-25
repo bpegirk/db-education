@@ -17,7 +17,7 @@
 
 Скачайте репозиторий через команду :
 
-> git clone [https://gitlab.irkat.ru/Bpeg/db-education.git](https://github.com/bpegirk/db-education.git)
+> git clone [https://github.com/bpegirk/db-education.git](https://github.com/bpegirk/db-education.git)
 
 ## Импорт в MySQL вручную
 
@@ -25,14 +25,14 @@
 
 ```bash
 # world
-mysql < database-dumps/world/world.sql
+sudo mysql < database-dumps/world/world.sql
 
 # employees
-mysql < database-dumps/employees/employees.sql
+sudo mysql < database-dumps/employees/employees.sql
 
 # sakila
-mysql < database-dumps/sakila/sakila-schema.sql
-mysql -u root -p < database-dumps/sakila/sakila-data.sql
+sudo mysql < database-dumps/sakila/sakila-schema.sql
+sudo mysql < database-dumps/sakila/sakila-data.sql
 
 # cars 
-mysql < database-dumps/cars/cars.sql
+sudo mysql < database-dumps/cars/cars.sql
