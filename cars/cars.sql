@@ -5,10 +5,10 @@
 
 
 /* Create the database */
-CREATE DATABASE  IF NOT EXISTS classicmodels;
+CREATE DATABASE  IF NOT EXISTS cars;
 
 /* Switch to the classicmodels database */
-USE classicmodels;
+USE cars;
 
 /* Drop existing tables  */
 DROP TABLE IF EXISTS productlines;
